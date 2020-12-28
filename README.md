@@ -6,7 +6,7 @@ SFML(Simple and Fast Multimedia Library)과 C++17을 이용하여 구현했습�
 개발 환경: Visual Studio 2019 (https://www.sfml-dev.org/tutorials/2.5/start-vc.php)
 
 ---
-AI 구현에 minimax 알고리즘(https://en.wikipedia.org/wiki/Minimax)을 사용했습니다.   
+AI 구현에 minimax 알고리즘(https://en.wikipedia.org/wiki/Minimax) 을 사용했습니다.   
    
 오셀로는 매 턴 돌을 둘 때마다 게임판 위에 놓여있던 돌들이 다시 뒤집힙니다.   
 따라서 자기가 돌을 둔 시점에 우위 여부를 판단하기 어렵습니다.   
