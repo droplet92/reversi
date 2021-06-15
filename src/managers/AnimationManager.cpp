@@ -1,5 +1,5 @@
 #include "AnimationManager.h"
-using namespace yothello;
+using namespace reversi;
 
 void AnimationManager::add(GameAnimation& animation)
 {

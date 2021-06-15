@@ -1,5 +1,5 @@
 #include "GameAnimation.h"
-using namespace yothello;
+using namespace reversi;
 
 const sf::Vector2f GameAnimation::ANIMATION_POS_BIG{ 100.f,100.f };
 const sf::Vector2f GameAnimation::ANIMATION_POS_SMALL{ 250.f,250.f };

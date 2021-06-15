@@ -2,7 +2,7 @@
 #include "Position.h"
 #define EMPTY_EGG	0
 
-namespace yothello
+namespace reversi
 {
 	struct Decision
 	{

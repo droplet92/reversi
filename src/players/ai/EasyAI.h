@@ -4,7 +4,7 @@
 #include "../../utilities/Logger.h"
 #include <vector>
 
-namespace yothello
+namespace reversi
 {
 	class EasyAI : public GameAI
 	{

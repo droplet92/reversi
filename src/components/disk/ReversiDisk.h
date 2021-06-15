@@ -3,7 +3,7 @@
 #include <array>
 #include <memory>
 
-namespace yothello
+namespace reversi
 {
 	constexpr int NEAREST_LEN = 8;
 

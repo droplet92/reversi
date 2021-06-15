@@ -1,5 +1,5 @@
 #include "AnimationQueue.h"
-using namespace yothello;
+using namespace reversi;
 
 void AnimationQueue::enqueue(GameAnimation& animation)
 {

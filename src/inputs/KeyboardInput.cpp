@@ -1,5 +1,5 @@
 #include "KeyboardInput.h"
-using namespace yothello;
+using namespace reversi;
 
 void KeyboardInput::captureEvent(const sf::Event& event)
 {

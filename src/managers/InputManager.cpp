@@ -1,5 +1,5 @@
 #include "InputManager.h"
-using namespace yothello;
+using namespace reversi;
 
 void InputManager::waitEvent()
 {

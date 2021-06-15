@@ -8,7 +8,7 @@
 #include <functional>
 #include <list>
 
-namespace yothello
+namespace reversi
 {
 	class Settings : public GameObject
 	{

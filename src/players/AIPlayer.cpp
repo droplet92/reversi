@@ -1,6 +1,6 @@
 #include "AIPlayer.h"
 #include "../components/board/GameBoard.h"
-using namespace yothello;
+using namespace reversi;
 
 const std::string AIPlayer::LOADING_IMAGE = "loading";
 const sf::Vector2f AIPlayer::BLACK_LOADING_POS{ 70.f,812.5f };

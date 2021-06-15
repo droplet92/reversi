@@ -1,7 +1,7 @@
 #include "Jukebox.h"
 #include <cassert>
 #include <random>
-using namespace yothello;
+using namespace reversi;
 
 const std::string Jukebox::MUSIC_PREFIX = "resources/sound/";
 const std::string Jukebox::MUSIC_SUFFIX = ".ogg";

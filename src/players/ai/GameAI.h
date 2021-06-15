@@ -3,7 +3,7 @@
 #include "../../types/PlayerType.h"
 #include "../../utilities/Timer.h"
 
-namespace yothello
+namespace reversi
 {
 	class GameBoard;
 

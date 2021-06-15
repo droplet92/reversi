@@ -7,7 +7,7 @@
 #include "../players/ai/HardAI.h"
 #include "../types/PlayerType.h"
 
-namespace yothello
+namespace reversi
 {
 	class PlayerManager
 	{

@@ -4,7 +4,7 @@
 #include <list>
 #include <SFML/Graphics.hpp>
 
-namespace yothello
+namespace reversi
 {
 	class GameObject : public IComposite<GameObject>, public sf::Sprite
 	{

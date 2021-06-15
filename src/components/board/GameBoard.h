@@ -8,7 +8,7 @@
 #include <memory>
 #include <vector>
 
-namespace yothello
+namespace reversi
 {
 	constexpr uint32_t BOARD_ROW = 8u;
 	constexpr uint32_t BOARD_COL = 8u;

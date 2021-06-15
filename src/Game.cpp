@@ -3,7 +3,7 @@
 #include "utilities/Timer.h"
 #include <cassert>
 
-using namespace yothello;
+using namespace reversi;
 
 const sf::Vector2u Game::WINDOW_SIZE{ 800,900 };
 const std::string Game::WINDOW_TITLE = "yothello";

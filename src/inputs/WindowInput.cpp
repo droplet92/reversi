@@ -1,5 +1,5 @@
 #include "WindowInput.h"
-using namespace yothello;
+using namespace reversi;
 
 void WindowInput::captureEvent(const sf::Event& event)
 {

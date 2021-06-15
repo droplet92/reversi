@@ -1,13 +1,13 @@
 #include "Tile.h"
 #include <cassert>
-using namespace yothello;
+using namespace reversi;
 
 const sf::IntRect Tile::TILE_SIZE{ 0, 0, 100, 100 };
 const std::string Tile::BLACK_IMAGE = "black";
 const std::string Tile::WHITE_IMAGE = "white";
 
 
-yothello::Tile::Tile(const PlayerType player, const BoardPosition pos) :
+reversi::Tile::Tile(const PlayerType player, const BoardPosition pos) :
 	GameObject(
 		(player == PlayerType::BLACK) ? BLACK_IMAGE : WHITE_IMAGE,
 		sf::Vector2f((float)pos.brow* TILE_SIZE.width, (float)pos.bcol* TILE_SIZE.height),

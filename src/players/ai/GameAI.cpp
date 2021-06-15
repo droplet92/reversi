@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <assert.h>
 #include <algorithm>
-using namespace yothello;
+using namespace reversi;
 
 namespace AIFunctions
 {

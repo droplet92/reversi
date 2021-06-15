@@ -4,7 +4,7 @@
 #include "types/PlayerType.h"
 #include "utilities/Jukebox.h"
 
-namespace yothello
+namespace reversi
 {
 	class GameBoard;
 	class MouseInput;

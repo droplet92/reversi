@@ -1,7 +1,7 @@
 #include "SelectState.h"
 #include "PlayState.h"
 #include "../Game.h"
-using namespace yothello;
+using namespace reversi;
 
 const std::string SelectState::SELECT_BLACK_BUTTON_NAME = "select_black";
 const std::string SelectState::SELECT_WHITE_BUTTON_NAME = "select_white";

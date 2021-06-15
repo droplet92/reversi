@@ -4,7 +4,7 @@
 #include "../../players/ai/EasyAI.h"
 #include "../../players/ai/NormalAI.h"
 #include "../../players/ai/HardAI.h"
-using namespace yothello;
+using namespace reversi;
 
 const sf::Vector2f DifficultySelector::DIFFICULTY_SELECTOR_POS{ 100.0f,450.0f };	// component of POPUP
 const std::vector<std::string> DifficultySelector::DIFFICULTY_LIST{
@@ -20,13 +20,13 @@ DifficultySelector::DifficultySelector() :
 {
 }
 
-void yothello::DifficultySelector::registerPlayerManager(PlayerManager& pm)
+void reversi::DifficultySelector::registerPlayerManager(PlayerManager& pm)
 {
 	playerManager = &pm;
 	setSelected(static_cast<int>(Difficulty::NORMAL));	// default is Normal
 }
 
-void yothello::DifficultySelector::update(MouseInput& mouseInput)
+void reversi::DifficultySelector::update(MouseInput& mouseInput)
 {
 	const int selection = Dropdown::update(mouseInput);
 	

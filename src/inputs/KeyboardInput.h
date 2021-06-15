@@ -1,7 +1,7 @@
 #pragma once
 #include "../GameInput.h"
 
-namespace yothello
+namespace reversi
 {
 	enum class KeyboardState : int { NONE, PRESSED };
 

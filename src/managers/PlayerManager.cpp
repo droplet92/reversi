@@ -1,6 +1,6 @@
 #include "PlayerManager.h"
 #include "../animations/AnimationEffect.h"
-using namespace yothello;
+using namespace reversi;
 
 PlayerManager::PlayerManager() :
 	player(nullptr),

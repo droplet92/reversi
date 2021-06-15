@@ -1,5 +1,5 @@
 #include "Mouse.h"
-using namespace yothello;
+using namespace reversi;
 
 const std::string Mouse::MOUSE_NAME = "mouse";
 const sf::Vector2f Mouse::MOUSE_POS{ 0.0f,0.0f };

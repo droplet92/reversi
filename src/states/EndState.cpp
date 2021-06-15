@@ -1,7 +1,7 @@
 #include "EndState.h"
 #include "SelectState.h"
 #include "../Game.h"
-using namespace yothello;
+using namespace reversi;
 
 const std::string EndState::REGAME_BUTTON_NAME = "regame_button";
 const sf::Vector2f EndState::REGAME_BUTTON_POS{ 700.0f,700.0f };

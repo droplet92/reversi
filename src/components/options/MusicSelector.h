@@ -6,7 +6,7 @@
 #include <vector>
 #include <string>
 
-namespace yothello
+namespace reversi
 {
 	class MusicSelector : public Dropdown, public SettingOption
 	{

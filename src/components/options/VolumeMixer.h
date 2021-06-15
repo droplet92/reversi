@@ -4,7 +4,7 @@
 #include "SettingOption.h"
 #include "../../utilities/Jukebox.h"
 
-namespace yothello
+namespace reversi
 {
 	class VolumeMixer : public IComposite<Jukebox>, public SettingOption, public GameObject
 	{

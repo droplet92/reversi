@@ -2,7 +2,7 @@
 #include "SelectState.h"
 #include "../Game.h"
 #include "../animations/AnimationEffect.h"
-using namespace yothello;
+using namespace reversi;
 
 TitleState::TitleState(Game* game) :
 	GameState(game),

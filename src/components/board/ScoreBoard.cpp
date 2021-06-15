@@ -1,5 +1,5 @@
 #include "ScoreBoard.h"
-using namespace yothello;
+using namespace reversi;
 
 const std::vector<int> ScoreBoard::NUM_XPOS = {
 	0, 42, 84, 126, 168, 210, 252, 294, 336, 378, 420

@@ -2,7 +2,7 @@
 #include "../../GameObject.h"
 #include "../../inputs/MouseInput.h"
 
-namespace yothello
+namespace reversi
 {
 	class Mouse : public GameObject
 	{

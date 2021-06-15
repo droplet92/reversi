@@ -5,7 +5,7 @@
 #include "../managers/AnimationManager.h"
 #include "../managers/InputManager.h"
 #include <Windows.h>
-using namespace yothello;
+using namespace reversi;
 
 namespace BoardFunctions
 {

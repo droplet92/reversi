@@ -3,7 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <sstream>
 
-namespace yothello
+namespace reversi
 {
 	constexpr int WINDOW_SCALE = 100;
 

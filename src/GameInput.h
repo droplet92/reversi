@@ -1,7 +1,7 @@
 #pragma once
 #include <SFML/Window/Event.hpp>
 
-namespace yothello
+namespace reversi
 {
 	class GameInput
 	{

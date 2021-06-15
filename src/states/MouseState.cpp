@@ -1,7 +1,7 @@
 #include "MouseState.h"
 #include "../inputs/MouseInput.h"
 #include <iostream>
-using namespace yothello;
+using namespace reversi;
 
 void MouseNone::handleInput(const etype& e)
 {

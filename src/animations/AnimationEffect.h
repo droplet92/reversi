@@ -1,7 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
-namespace yothello
+namespace reversi
 {
 	bool popup(sf::Sprite* sprite, const float dt);
 	bool fade_in(sf::Sprite* sprite, const float dt);

@@ -2,7 +2,7 @@
 
 #include "Game.h"
 
-using namespace yothello;
+using namespace reversi;
 
 GameState::GameState(Game* game):
 	owner(game)

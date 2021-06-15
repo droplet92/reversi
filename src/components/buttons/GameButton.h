@@ -4,7 +4,7 @@
 #include "../../inputs/MouseInput.h"
 #include <type_traits>
 
-namespace yothello
+namespace reversi
 {
 	class AnimationButton : public IButton, public GameAnimation
 	{

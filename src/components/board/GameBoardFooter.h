@@ -5,7 +5,7 @@
 #include "../../GameObject.h"
 #include "../../types/PlayerType.h"
 
-namespace yothello
+namespace reversi
 {
 	class GameBoardFooter : public GameObject
 	{

@@ -1,6 +1,6 @@
 #include "GameBoard.h"
 #pragma warning(disable:4996)
-using namespace yothello;
+using namespace reversi;
 
 const std::string GameBoard::IMAGE = "board";
 const sf::Vector2f GameBoard::POS{ 0.f,0.f };

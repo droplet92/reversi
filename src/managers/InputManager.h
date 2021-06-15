@@ -4,7 +4,7 @@
 #include "../inputs/MouseInput.h"
 #include "../inputs/WindowInput.h"
 
-namespace yothello
+namespace reversi
 {
 	class InputManager
 	{

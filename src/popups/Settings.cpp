@@ -1,7 +1,7 @@
 #include "Settings.h"
 #include "../managers/PlayerManager.h"
 #include <memory>
-using namespace yothello;
+using namespace reversi;
 
 const std::string Settings::SETTINGS_NAME = "settings";
 const sf::Vector2f Settings::SETTINGS_POS{ 150.0f,50.0f };
@@ -26,7 +26,7 @@ Settings::Settings() :
 	close();
 }
 
-void yothello::Settings::registerAiDifficultyManager(PlayerManager& pm)
+void reversi::Settings::registerAiDifficultyManager(PlayerManager& pm)
 {
 	difficultySelector.registerPlayerManager(pm);
 }

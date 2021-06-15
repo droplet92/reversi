@@ -2,7 +2,7 @@
 #include "../GameObject.h"
 #include <functional>
 
-namespace yothello
+namespace reversi
 {
 	extern bool none(sf::Sprite* sprite, const float dt);
 

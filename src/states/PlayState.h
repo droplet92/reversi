@@ -2,7 +2,7 @@
 #include "../GameState.h"
 #include "../animations/GameAnimation.h"
 
-namespace yothello
+namespace reversi
 {
 	class PlayState : public GameState
 	{

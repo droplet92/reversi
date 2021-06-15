@@ -3,7 +3,7 @@
 
 using etype = sf::Event::EventType;
 
-namespace yothello
+namespace reversi
 {
 	class MouseInput;
 

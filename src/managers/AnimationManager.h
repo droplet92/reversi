@@ -3,7 +3,7 @@
 #include "../utilities/AnimationQueue.h"
 #include <vector>
 
-namespace yothello
+namespace reversi
 {
 	class AnimationManager
 	{

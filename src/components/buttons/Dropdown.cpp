@@ -1,7 +1,7 @@
 #pragma once
 #include "Dropdown.h"
 #include <cassert>
-using namespace yothello;
+using namespace reversi;
 
 const std::string DropdownOption::DEFAULT_SELECTED_TEXT = "NONE";
 const std::string DropdownOption::DROPDOWN_OPTION_NAME = "dropdown_option";

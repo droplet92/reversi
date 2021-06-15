@@ -6,7 +6,7 @@
 #include <ctime>
 using namespace std::chrono;
 
-namespace yothello
+namespace reversi
 {
 	static const char* logpath = "log";
 

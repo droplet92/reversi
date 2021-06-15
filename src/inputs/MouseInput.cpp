@@ -1,5 +1,5 @@
 #include "MouseInput.h"
-using namespace yothello;
+using namespace reversi;
 
 namespace MouseEventPosition
 {

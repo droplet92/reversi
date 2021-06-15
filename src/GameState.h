@@ -6,7 +6,7 @@
 #include "inputs/MouseInput.h"
 #include "utilities/Logger.h"	// added
 
-namespace yothello
+namespace reversi
 {
 	class Game;
 

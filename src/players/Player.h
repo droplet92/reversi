@@ -4,7 +4,7 @@
 #include "../types/PlayerType.h"
 #include "../inputs/MouseInput.h"
 
-namespace yothello
+namespace reversi
 {
 	class Player : public GamePlayer
 	{

@@ -3,7 +3,7 @@
 #include "GameButton.h"
 #include "ToggleButton.h"
 
-namespace yothello
+namespace reversi
 {
 	using option_button = std::pair<sf::Text, PlainButton>;
 

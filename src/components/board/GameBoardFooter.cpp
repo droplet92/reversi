@@ -1,5 +1,5 @@
 #include "GameBoardFooter.h"
-using namespace yothello;
+using namespace reversi;
 
 const std::string GameBoardFooter::FOOTER_NAME = "footer";
 const sf::Vector2f GameBoardFooter::FOOTER_POS{ 0.f,800.f };

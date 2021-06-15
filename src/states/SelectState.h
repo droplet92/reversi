@@ -2,7 +2,7 @@
 #include "../GameState.h"
 #include "../components/buttons/GameButton.h"
 
-namespace yothello
+namespace reversi
 {
 	class SelectState : public GameState
 	{

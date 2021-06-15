@@ -1,6 +1,6 @@
 #pragma once
 
-namespace yothello
+namespace reversi
 {
 	enum class PlayerType : int
 	{

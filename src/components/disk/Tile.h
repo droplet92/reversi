@@ -4,7 +4,7 @@
 #include "../../types/Position.h"
 #include "../../utilities/minimax/Stone.hpp"
 
-namespace yothello
+namespace reversi
 {
 	class Tile : public GameObject, public Stone
 	{

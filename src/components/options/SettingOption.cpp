@@ -1,2 +1,2 @@
 #include "SettingOption.h"
-using namespace yothello;
+using namespace reversi;

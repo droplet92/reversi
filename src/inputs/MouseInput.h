@@ -4,7 +4,7 @@
 #include "../types/Position.h"
 #include "../states/MouseState.h"
 
-namespace yothello
+namespace reversi
 {
 	class MouseInput : public GameInput
 	{

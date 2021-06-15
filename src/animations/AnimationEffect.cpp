@@ -4,7 +4,7 @@
 constexpr float SEC_TO_FADE_IN = 1.0f;
 constexpr float SEC_TO_FADE_OUT = 0.5f;
 
-namespace yothello
+namespace reversi
 {
 	/* 1.5 seconds */
 	bool popup(sf::Sprite* sprite, const float dt)

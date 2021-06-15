@@ -1,6 +1,6 @@
 #include "VolumeMixer.h"
 #include "../../popups/Settings.h"
-using namespace yothello;
+using namespace reversi;
 
 const std::string VolumeMixer::VOLUME_MIXER_NAME = "volume_mixer";
 const sf::Vector2f VolumeMixer::BGM_VOLUME_POS{ 100.0f,150.0f };	// component of POPUP

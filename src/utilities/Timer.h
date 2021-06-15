@@ -2,7 +2,7 @@
 #include <chrono>
 using namespace std::chrono;
 
-namespace yothello
+namespace reversi
 {
 	class Timer
 	{

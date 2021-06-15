@@ -4,7 +4,7 @@
 #include <memory>
 #include <SFML/Audio.hpp>
 
-namespace yothello
+namespace reversi
 {
 	constexpr uint32_t NSOUND = 9;
 	constexpr uint32_t FANFARE = 0;

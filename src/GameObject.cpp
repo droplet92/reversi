@@ -1,7 +1,7 @@
 #include "GameObject.h"
 #include "managers/TextureManager.h"
 #include <algorithm>
-using namespace yothello;
+using namespace reversi;
 
 const std::string GameObject::IMAGE_PREFIX = "resources/image/";
 const std::string GameObject::IMAGE_SUFFIX = ".png";
@@ -32,7 +32,7 @@ GameObject::GameObject(const sf::Vector2f pos)
 	setPosition(pos);
 }
 
-bool yothello::GameObject::includes(const Position p) const
+bool reversi::GameObject::includes(const Position p) const
 {
 	const sf::Vector2i v = { p.row, p.col };
 	const sf::Vector2i lt = { (int)getPosition().x, (int)getPosition().y };

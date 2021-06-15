@@ -3,7 +3,7 @@
 #include <queue>
 #include <vector>
 
-namespace yothello
+namespace reversi
 {
 	// AnimationQueue guarantees queue has no done animations
 	class AnimationQueue

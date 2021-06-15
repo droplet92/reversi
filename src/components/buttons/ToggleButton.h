@@ -1,7 +1,7 @@
 #pragma once
 #include "GameButton.h"
 
-namespace yothello
+namespace reversi
 {
 	class ToggleButton : public PlainButton
 	{

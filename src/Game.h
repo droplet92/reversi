@@ -8,7 +8,7 @@
 #include "managers/InputManager.h"
 #include "utilities/Jukebox.h"
 
-namespace yothello
+namespace reversi
 {
 	class Game
 	{

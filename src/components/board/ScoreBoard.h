@@ -2,7 +2,7 @@
 #include "../../GameObject.h"
 #include <vector>
 
-namespace yothello
+namespace reversi
 {
 	class ScoreBoard : public GameObject
 	{

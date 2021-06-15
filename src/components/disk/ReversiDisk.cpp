@@ -1,5 +1,5 @@
 #include "ReversiDisk.h"
-using namespace yothello;
+using namespace reversi;
 
 const std::vector<BoardPosition> ReversiDisk::CLOCKWISE_DIRECTION = {
 	{0,-1},{1,-1},{1,0},{1,1},{0,1},{-1,1},{-1,0},{-1,-1}

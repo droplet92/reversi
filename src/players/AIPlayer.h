@@ -4,7 +4,7 @@
 #include <future>
 #include <SFML/Graphics.hpp>
 
-namespace yothello
+namespace reversi
 {
 	class AIPlayer : public GamePlayer
 	{

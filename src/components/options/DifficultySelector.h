@@ -2,7 +2,7 @@
 #include "SettingOption.h"
 #include "../buttons/Dropdown.h"
 
-namespace yothello
+namespace reversi
 {
 	class PlayerManager;
 
