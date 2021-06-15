@@ -6,7 +6,7 @@
 using namespace reversi;
 
 const sf::Vector2u Game::WINDOW_SIZE{ 800,900 };
-const std::string Game::WINDOW_TITLE = "yothello";
+const std::string Game::WINDOW_TITLE = "reversi";
 
 constexpr uint32_t FRAME_PER_SECOND = 60u;
 constexpr float MS_PER_FRAME = 16.0f;
