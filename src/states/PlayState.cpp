@@ -4,7 +4,6 @@
 #include "../animations/AnimationEffect.h"
 #include "../managers/AnimationManager.h"
 #include "../managers/InputManager.h"
-#include <Windows.h>
 using namespace reversi;
 
 namespace BoardFunctions
@@ -55,9 +54,6 @@ void PlayState::update(Game& game, InputManager& inputManager)
 		game.getAnimationManager().stop();
 		auto& turnAnimation = game.getPlayerManager().getTurnPlayer()->myTurn();
 		game.getAnimationManager().push(turnAnimation);
-
-		if (decision.easter_egg == IDOK)
-			inputManager.mouseInput.release();
 		return;
 	}
 	Logger::instance().write(std::to_string(static_cast<int>(game.getPlayerManager().getTurnPlayer()->type))
