@@ -1,5 +1,7 @@
 # reversi
 
+[![Badge](https://img.shields.io/badge/Language-English%20(US)-green)](https://github.com/droplet92/reversi/blob/master/README.en.md)
+
 간단한 오셀로(othello, reversi) 게임입니다.   
 SFML(Simple and Fast Multimedia Library)과 C++17을 이용하여 구현했습니다.  
 
